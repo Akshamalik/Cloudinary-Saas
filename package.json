@@ -10,9 +10,13 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^6.35.5",
+    "@prisma/adapter-pg": "^7.2.0",
     "@prisma/client": "^7.2.0",
+    "cloudinary": "^2.8.0",
     "daisyui": "^5.5.5",
     "next": "16.0.4",
+    "next-cloudinary": "^6.17.5",
+    "pg": "^8.16.3",
     "react": "19.2.0",
     "react-dom": "19.2.0"
   },
@@ -22,6 +26,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "babel-plugin-react-compiler": "1.0.0",
+    "dotenv": "^17.2.3",
     "eslint": "^9",
     "eslint-config-next": "16.0.4",
     "prisma": "^7.2.0",
